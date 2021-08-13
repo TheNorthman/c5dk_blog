@@ -137,7 +137,7 @@ Core::make('help')->display(t(
 
 		<div class="ccm-dashboard-form-actions-wrapper">
 			<div class="ccm-dashboard-form-actions">
-				<?php print $form->submit('save', t('Save'), '', 'pull-right btn btn-success'); ?>
+				<?php print $form->submit('save', t('Save'), [], 'pull-right btn btn-success'); ?>
 			</div>
 		</div>
 
